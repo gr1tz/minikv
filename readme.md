@@ -11,6 +11,9 @@ A lightweight, Redis‑like key–value store implemented in Python 3 using Geve
 
 ## Requirements
 
+```bash
+git clone git@github.com:gr1tz/minikv.git
+```
 * Python 3.6+
 * gevent
 
