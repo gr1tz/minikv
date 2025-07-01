@@ -40,7 +40,8 @@ By default, the server listens on `127.0.0.1:31338`. You can change the host/por
 ```python
 from client import Client
 
-client = Client(host='127.0.0.1', port=31338)
+# (host='127.0.0.1', port=31338)
+client = Client
 
 # Set a value
 client.set('foo', 'bar')  # returns 1
